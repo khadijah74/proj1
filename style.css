@@ -1,0 +1,49 @@
+header{
+    background-color: black;
+}
+.navsec{
+    display: flex;
+    justify-content: space-between;
+}
+.ORimg img{
+    width: 50px;
+    height: 50px;
+}
+.navlists ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    list-style: none;
+    justify-content: right;
+}
+.mypic img{
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+}
+.scndsec{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.scndsec p{
+    color: white;
+}
+h1{
+    color: white;
+}
+.btn1{
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+.btn2{
+    border: 2px solid white;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+h3{
+    color: white;
+}
