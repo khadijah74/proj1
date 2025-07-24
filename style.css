@@ -1,8 +1,11 @@
 header{
-    background-color: black;
-    /* display: flex;
-    align-items: center;
-    margin-top: 50px; */
+    background-color: black; 
+    height: 100%;
+     width: 100%;
+     align-items: center;   
+     justify-content: center;
+     text-align: center;
+    display: flex;
 }
 .navsec{
     display: flex;
@@ -67,4 +70,16 @@ h2{
 .btns{
     gap: 30px;
     margin-left: 50px;
+    display: flex;
+   
+}
+@media(max-width:600px){
+
+}
+.body{
+     padding: 100%;
+     margin: 0;
+     padding: 0;
+     flex-direction: column;
+     
 }
